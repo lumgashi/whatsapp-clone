@@ -19,10 +19,10 @@ app.use(cors());
 
 //pusher config
 const pusher = new Pusher({
-  appId: process.env.appId,
-  key: process.env.key,
-  secret: process.env.secret,
-  cluster: process.env.cluster,
+  appId: process.env.PUSHER_appId,
+  key: process.env.PUSHER_key,
+  secret: process.env.PUSHER_server,
+  cluster: process.env.PUSHER_cluster,
   useTLS: true
 });
 

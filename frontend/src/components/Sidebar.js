@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './Sidebar.css'
 import DonutLargeOutlinedIcon from '@mui/icons-material/DonutLargeOutlined';
 import ChatBubbleOutlineOutlinedIcon from '@mui/icons-material/ChatBubbleOutlineOutlined';
@@ -8,7 +8,8 @@ import {Avatar, IconButton } from '@mui/material';
 import SidebarChat from './SidebarChat';
 
 
-const Sidebar = () => {
+const Sidebar = ({messages}) => {
+ console.log('sidebar = ', messages)
   return (
     <div className='sidebar'>
       <div className="sidebar__header">
@@ -33,7 +34,7 @@ const Sidebar = () => {
       </div>
 
       <div className='sidebar__chats'>
-            <SidebarChat />
+            <SidebarChat messages={messages}  />
       </div>
 
 
