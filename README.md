@@ -1,8 +1,7 @@
 # whatsapp-clone
  
 # Project Description
- Whatsapp clone with MERN Stack, user can send messages in real time, which is made possible by using Pusher, on the frontend I've used React and on the backend, node.js
- and MongoDb as the database.
+With the MERN Stack's WhatsApp clone, users can send messages in real time thanks to Pusher. React was utilized on the front end, and node.js and MongoDb served as the back ends/database.
  
  
  ![Alt Text](https://media2.giphy.com/media/zuDdOnUaEPt1WWR6Xt/giphy.gif?cid=790b76112c47ad8ac6a2cefe4866dceb2c389e98c04800a1&rid=giphy.gif&ct=g)
